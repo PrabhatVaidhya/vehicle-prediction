@@ -1,0 +1,18 @@
+﻿# Data files (large CSVs)
+*.csv
+!sample_submission.csv
+
+# Python cache & virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.egg-info/
+venv/
+env/
+.env
+
+# Catboost & model logs
+catboost_info/
+*.log
